@@ -1,16 +1,17 @@
 /*Estilização dos Painéis de publicação*/
 #grid-container {
+  height: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2em;
 }
 
-.quadro{
+.quadro {
   width: 24em;
-  height: 24em; 
+  height: 24em;
   border: 1em, solid, #190019;
   border-radius: 1em;
-  
+
   background-color: #640062;
   margin: auto;
 }
@@ -96,10 +97,7 @@
 .copy {
   font-weight: bold;
   font-size: 0.8em;
+  text-align: center;
   color: #522b5b;
-
-  /*position: fixed;*/
-  bottom: 0;
-  right: 36%;
 }
 /*Fim da Estilização do Rodapé*/
